@@ -1,0 +1,27 @@
+# Arquivos de desenvolvimento (não publicar no NPM)
+src/
+tests/
+*.test.ts
+*.spec.ts
+
+# Configurações
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.eslintrc.json
+.prettierrc
+.editorconfig
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Git
+.git/
+.gitignore
+
+# Outros
+*.md
+!README.md
+.vscode/
+.idea/
