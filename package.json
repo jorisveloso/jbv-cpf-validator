@@ -15,7 +15,8 @@
     "lint:fix": "eslint src tests --fix",
     "typecheck": "tsc --noEmit",
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "validate": "pnpm run typecheck && pnpm run lint && pnpm run test"
   },
   "keywords": [
     "cpf",
@@ -28,6 +29,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.23.0",
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
     "@typescript-eslint/eslint-plugin": "^8.48.1",
     "@typescript-eslint/parser": "^8.48.1",
