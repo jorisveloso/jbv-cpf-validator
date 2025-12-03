@@ -1,0 +1,21 @@
+{
+  "name": "jbv-cpf-validator",
+  "version": "0.1.0",
+  "description": "Validador de CPF brasileiro com TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cpf",
+    "validator",
+    "brazil",
+    "brasil",
+    "validacao"
+  ],
+  "author": "Joris Veloso <jorisveloso@gmail.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.23.0"
+}
